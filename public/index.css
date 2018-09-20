@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+body {
+  background: url("image\ bACKGRND.png");
+  overflow: hidden;
+  background: lightgray;
+}
+#a1,
+#a2 {
+  margin-top: 40px;
+  font-family: "Oswald", sans-serif;
+}
+
+.p1 {
+  margin: 50px;
+}
+.p2 {
+  margin: 50px;
+}
+
+.img2 {
+  height: 25vh;
+  border-radius: 50%;
+  position: absolute;
+  left: 60%;
+}
+.img1 {
+  height: 25vh;
+  border-radius: 50%;
+  position: relative;
+  left: 10%;
+}
+.battleBtn {
+  width: 80px;
+  height: 30px;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  border-radius: 3rem;
+}
+.player1 {
+  margin: 80px 90px 80px 130px;
+}
+@media only screen and (max-width: 600px) {
+  #url1,
+  #url2 {
+    width: 128px;
+  }
+  .player1 {
+    margin-top: 60px;
+    margin-left: 0;
+  }
+
+  .player2 {
+    margin-top: -210px;
+    margin-left: 55%;
+  }
+  .battleBtn {
+    position: absolute;
+    top: 70%;
+    left: 34%;
+  }
+  .img1 {
+    left: 0;
+    margin-top: -30px;
+  }
+  .img2 {
+    left: 60%;
+    margin-top: -30px;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .player2 {
+    margin-top: -200px;
+    margin-left: 60%;
+  }
+}
+.win1 {
+  margin-left: 350px;
+  margin-top: -190px;
+  word-spacing: 220px;
+  color: green;
+}
+.win2 {
+  font-size: 30px;
+  margin-left: 550px;
+  margin-top: -190px;
+  word-spacing: 220px;
+  color: green;
+}
+
+@media only screen and (max-width: 600px) {
+  .win1 {
+    display: inline-block;
+    font-size: 22px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin-left: 40px;
+    margin-top: 10px;
+    word-spacing: 110px;
+  }
+  .win2 {
+    display: inline-block;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 150px;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+  .win1 {
+    display: inline-block;
+    margin-left: 100px;
+    word-spacing: 240px;
+  }
+}

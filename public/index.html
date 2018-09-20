@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Github_Battle</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6">
+                <a href="index.html" style="float: left; color: black">Reset</a>
+                <h2 id="a1">Player 1</h2>
+                <div class="input-group p1">
+                    <input type="text" id="url1" class="form-control" placeholder="github username" required>
+                    <button class="btn-primary btn1" onclick="showAvatar()">submit</button>
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <a href="https://github.com/rachitgupta98" style="float: right; color: black">
+                    <i class="fa fa-github git fa-2x">
+                    </i>
+                </a>
+                <h2 id="a2">Player 2</h2>
+                <div class="input-group p2">
+                    <input type="text" id="url2" class="form-control" placeholder="github username" required>
+                    <span>
+                        <button class="btn-primary btn2" onclick="showAvatar2()">submit</button>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="player1.js"></script>
+    <script src="player2.js"></script>
+    <script src="battle.js"></script>
+</body>
+
+</html>
